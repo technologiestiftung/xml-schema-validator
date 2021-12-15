@@ -13,10 +13,12 @@ The Berlin administration provides geodata via the FIS-Broker as Open Data. In a
 To run this application we suggest using docker and running the container behind a reverse proxy using nginx. See the [gunicorn documentation](https://docs.gunicorn.org/en/latest/deploy.html) for further information.
 
 You also can just run the docker container directly using
+!Hint: Don't use the latest tag use a specific version. See the [docker hub page](https://hub.docker.com/r/technologiestiftung/xml-schema-validator/tags) for all of them.
 
 ```bash
-docker run -p "80:3333" technologiestiftung/xml-schema-validator:v2.0.0
+docker run -p "80:3333" technologiestiftung/xml-schema-validator:latest
 ```
+
 
 or run it with docker compose from source. Make sure to change exposed port in docker-compose.yml form 3333 to 80 (http) or 443 (https).
 
