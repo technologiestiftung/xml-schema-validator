@@ -166,6 +166,14 @@ svg.logo-ibb:hover polygon#letter {
 svg.logo-ibb:hover path#Shape {
   fill: #00ACCF; }
 
+svg.logo-stiftung:hover path {
+    fill: #E60032;
+}
+
+svg.logo-opendata:hover path {
+    fill: #E60032;
+} 
+
 .copy-funding {
   line-height: 140%; }
 

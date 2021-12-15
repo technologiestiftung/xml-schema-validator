@@ -10,7 +10,7 @@ The Berlin administration provides geodata via the FIS-Broker as Open Data. In a
 
 ## Deployment
 
-To run this application we suggest using docker and running the container behind a revere proxy using nginx. See the [gunicorn documentation](https://docs.gunicorn.org/en/latest/deploy.html) for further information.
+To run this application we suggest using docker and running the container behind a reverse proxy using nginx. See the [gunicorn documentation](https://docs.gunicorn.org/en/latest/deploy.html) for further information.
 
 You also can just run the docker container directly using
 
