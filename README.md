@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Build%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiesitftung%20Berlin-blue)
+![](https://img.shields.io/badge/Built%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiestiftung%20Berlin-blue)
 
 # XML Schema Validator for Berlin Geodata
 
@@ -19,12 +19,13 @@ You also can just run the docker container directly using
 ```bash
 docker run -p "80:3333" technologiestiftung/xml-schema-validator:latest
 ```
+
 Hint: Don't use the latest tag use a specific version. See the [docker hub page](https://hub.docker.com/r/technologiestiftung/xml-schema-validator/tags) for all of them.
 
 or run it with docker compose from source. Make sure to change exposed port in docker-compose.yml form 3333 to 80 (http) or 443 (https).
 
 ```bash
-docker-compose build  
+docker-compose build
 docker-compose up
 ```
 
