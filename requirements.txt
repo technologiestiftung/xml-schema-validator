@@ -1,5 +1,5 @@
 # To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
 flask==1.1.2
-gunicorn==20.0.4
+gunicorn==21.2.0
 lxml==4.3.0
 waitress==2.0.0
