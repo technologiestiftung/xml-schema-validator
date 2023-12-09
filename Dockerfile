@@ -1,5 +1,5 @@
 # For more information, please refer to https://aka.ms/vscode-docker-python
-FROM python:3.6.8
+FROM python:3.12.1
 
 EXPOSE 3333
 
